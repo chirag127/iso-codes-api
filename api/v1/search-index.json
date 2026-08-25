@@ -1,0 +1,26 @@
+{
+  "byId": {
+    "IN": {
+      "id": "IN",
+      "name": "India",
+      "alpha2": "IN",
+      "currency": "INR",
+      "language": "hi"
+    },
+    "US": {
+      "id": "US",
+      "name": "United States",
+      "alpha2": "US",
+      "currency": "USD",
+      "language": "en"
+    },
+    "GB": {
+      "id": "GB",
+      "name": "United Kingdom",
+      "alpha2": "GB",
+      "currency": "GBP",
+      "language": "en"
+    }
+  },
+  "searchableFields": []
+}

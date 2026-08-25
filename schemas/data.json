@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chirag127.github.io/iso-country/currency/language-codes/schemas/data.json",
+  "title": "ISO Country/Currency/Language Codes",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "name",
+      "alpha2",
+      "currency",
+      "language"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[A-Z0-9-]+$"
+      },
+      "name": {
+        "type": "string"
+      },
+      "alpha2": {
+        "type": "string"
+      },
+      "currency": {
+        "type": "string"
+      },
+      "language": {
+        "type": "string"
+      }
+    }
+  }
+}

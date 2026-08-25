@@ -1,0 +1,15 @@
+{
+  "status": "healthy",
+  "lastUpdated": "2026-08-25T13:59:36.804Z",
+  "sourceUpdatedAt": "2026-08-25T13:59:36.804Z",
+  "retrievedAt": "2026-08-25T13:59:36.804Z",
+  "recordCount": 3,
+  "version": "1.0.0",
+  "schemaVersion": "1.0.0",
+  "source": "ISO standards",
+  "license": "CC0-1.0",
+  "updateCadence": "yearly",
+  "nextUpdateDue": "2026-11-23T13:59:36.804Z",
+  "lastFailedAt": null,
+  "failureReason": null
+}
