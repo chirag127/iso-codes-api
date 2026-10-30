@@ -1,0 +1,91 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "ISO Country/Currency/Language Codes",
+    "description": "ISO 3166-1 (country), ISO 4217 (currency), ISO 639 (language) codes",
+    "version": "1.0.0",
+    "license": {
+      "name": "CC0-1.0"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://chirag127.github.io/iso-codes",
+      "description": "GitHub Pages"
+    }
+  ],
+  "paths": {
+    "/data.json": {
+      "get": {
+        "summary": "ISO Country/Currency/Language Codes data",
+        "description": "ISO 3166-1 (country), ISO 4217 (currency), ISO 639 (language) codes",
+        "responses": {
+          "200": {
+            "description": "JSON response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/countries": {
+      "get": {
+        "summary": "ISO Country/Currency/Language Codes",
+        "description": "ISO 3166-1 (country), ISO 4217 (currency), ISO 639 (language) codes",
+        "responses": {
+          "200": {
+            "description": "JSON response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/currencies": {
+      "get": {
+        "summary": "ISO Country/Currency/Language Codes",
+        "description": "ISO 3166-1 (country), ISO 4217 (currency), ISO 639 (language) codes",
+        "responses": {
+          "200": {
+            "description": "JSON response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/languages": {
+      "get": {
+        "summary": "ISO Country/Currency/Language Codes",
+        "description": "ISO 3166-1 (country), ISO 4217 (currency), ISO 639 (language) codes",
+        "responses": {
+          "200": {
+            "description": "JSON response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "IN",
+    "name": "India",
+    "alpha2": "IN",
+    "currency": "INR",
+    "language": "hi"
+  },
+  {
+    "id": "US",
+    "name": "United States",
+    "alpha2": "US",
+    "currency": "USD",
+    "language": "en"
+  },
+  {
+    "id": "GB",
+    "name": "United Kingdom",
+    "alpha2": "GB",
+    "currency": "GBP",
+    "language": "en"
+  }
+]
